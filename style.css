@@ -1369,3 +1369,47 @@ body #wrap .panel .thumb img.shift {
   font-size: 1.2rem;
   margin-top: 88%;
 }
+
+#slide1 a{    
+  top: 14%;
+  left: 40%;
+  text-decoration: none;
+  font-size: 1.7rem;
+  position: absolute;
+  background: chartreuse;
+  color: black;
+  border: 4px solid #000;
+  width: 19%;
+  height: 6%;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 0.9rem;
+}
+#slide2 a{       top: 14%;
+  left: 40%;
+  text-decoration: none;
+  font-size: 1.7rem;
+  position: absolute;
+  background: chartreuse;
+  color: black;
+  border: 4px solid #000;
+  width: 19%;
+  height: 6%;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 0.9rem;
+}
+#slide3 a{        top: 14%;
+  left: 40%;
+  text-decoration: none;
+  font-size: 1.7rem;
+  position: absolute;
+  background: chartreuse;
+  color: black;
+  border: 4px solid #000;
+  width: 19%;
+  height: 6%;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 0.9rem;
+}
