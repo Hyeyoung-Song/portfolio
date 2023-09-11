@@ -5,9 +5,9 @@
   left: 0;
   top: 50%;
   height: 2px;
-  background: linear-gradient(-45deg, rgb(204, 255, 150),rgb(230, 250, 181));
+  background: linear-gradient(-45deg, #49e,#fff);
   border-radius: 999px;
-  filter: drop-shadow(0 0 6px #e9ffd3);
+  filter: drop-shadow(0 0 6px #e6fffc);
   -webkit-animation: tail 4000ms linear infinite, shooting 4000ms linear infinite;
           animation: tail 4000ms linear infinite, shooting 4000ms linear infinite;
 }

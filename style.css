@@ -759,11 +759,11 @@ body #wrap h1 span.word:before {
   bottom: 5%;
   transform: translate(-50%, 150%);
   content: attr(data-word);
-  color:  teal;
+  color: #9fb3da;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px  teal;
+  -webkit-text-stroke: 2px #9fb3da;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to bottom,  teal 50%, #eeece5 50%);
+  background-image: linear-gradient(to bottom, #9fb3da 50%, #eeece5 50%);
   background-size: 100% 200%;
   background-position: 50% 100%;
   transition: 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-position 0.5s cubic-bezier(1, 0.885, 0.32, 1);
@@ -772,7 +772,7 @@ body #wrap p.subhead {
   width: 100%;
   text-align: center;
   position: relative;
-  color:  teal;
+  color:  #9fb3da;
   font-size: 1rem;
   color: #E86E95;
   opacity: 0;
@@ -791,7 +791,7 @@ body #wrap p.subhead.final:before, body #wrap p.subhead.final:after {
   width: 25vw;
   max-width: 500px;
   height: 1px;
-  border-bottom: 2px  teal dashed;
+  border-bottom: 2px  #9fb3da dashed;
   top: calc(50% - 1.5px);
   opacity: 0.25;
   left: 100px;
@@ -1010,7 +1010,7 @@ body #wrap .panel:before {
   justify-content: flex-start;
   align-items: center;
   color: #eeece5;
-  -webkit-text-stroke: 2px #52623D;
+  -webkit-text-stroke: 2px #9fb3da;
   line-height: 1;
   opacity: 0;
   transition: 1.75s ease-in-out;
@@ -1160,7 +1160,7 @@ body #wrap .panel:nth-of-type(even) .thumb p {
 body #wrap .panel .thumb {
   grid-area: 2/3/5/6;
   position: relative;
-  box-shadow: 0 0 0 2px #52623D;
+  box-shadow: 0 0 0 2px #9fb3da;
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
 }
@@ -1204,7 +1204,7 @@ body #wrap .panel .thumb .inner:before, body #wrap .panel .thumb .inner:after {
 
 body #wrap .panel .thumb:hover:before {
   transform: translate(-5%, -5%);
-  box-shadow: 0 0 0 2px #52623D, 0 0 0 6px #eeece5, 0 0 0 8px #E86E95;
+  box-shadow: 0 0 0 2px #9fb3da, 0 0 0 6px #eeece5, 0 0 0 8px #E86E95;
   transition-delay: 0s, 0.2s;
 }
 body #wrap .panel .thumb:before {
@@ -1214,7 +1214,7 @@ body #wrap .panel .thumb:before {
   height: 100%;
   left: 5%;
   top: 5%;
-  box-shadow: 0 0 0 2px #52623D, 0 0 0 0 #eeece5, 0 0 0 0 #E86E95;
+  box-shadow: 0 0 0 2px #9fb3da, 0 0 0 0 #eeece5, 0 0 0 0 #E86E95;
   transition: transform 0.2s cubic-bezier(1, 0.885, 0.32, 1), box-shadow 0.2s cubic-bezier(1, 0.885, 0.32, 1);
   transition-delay: 0.2s, 0s;
   background: radial-gradient(circle at center, #E86E95 1px, rgba(255, 255, 255, 0.005) 1px, rgba(255, 255, 255, 0.005) 20px) 0px 0px/20px 20px, radial-gradient(circle at center, #a58725 1px, rgba(255, 255, 255, 0.005) 1px, rgba(255, 255, 255, 0.005) 20px) 10px 10px/20px 20px;
@@ -1331,7 +1331,7 @@ body #wrap .panel .thumb img.shift {
   font-family: "Bogart-Semibold";
   font-size: 6.5rem;
   font-weight: bold;
-  color: teal;
+  color: #9fb3da;
 }
 .name1{
   position: absolute;
@@ -1376,7 +1376,7 @@ body #wrap .panel .thumb img.shift {
   text-decoration: none;
   font-size: 1.7rem;
   position: absolute;
-  background: chartreuse;
+  background: #c3ddee;
   color: black;
   border: 4px solid #000;
   width: 19%;
@@ -1390,7 +1390,7 @@ body #wrap .panel .thumb img.shift {
   text-decoration: none;
   font-size: 1.7rem;
   position: absolute;
-  background: chartreuse;
+  background: #c3ddee;
   color: black;
   border: 4px solid #000;
   width: 19%;
@@ -1404,7 +1404,7 @@ body #wrap .panel .thumb img.shift {
   text-decoration: none;
   font-size: 1.7rem;
   position: absolute;
-  background: chartreuse;
+  background: #c3ddee;
   color: black;
   border: 4px solid #000;
   width: 19%;
