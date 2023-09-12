@@ -2,7 +2,6 @@ let images = [
   "image/beaty.png",
   "image/hour.png",
   "image/for.png",
-  "image/milk.png",
   "image/sweet.png",
   "image/cau.png"
 ];

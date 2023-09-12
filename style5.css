@@ -7,7 +7,7 @@
 .parent {
   width: 108%;
   height: 23%;
-  top: 75%;
+  top: 65%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -72,10 +72,10 @@ circle {
 
 .right {
   position: absolute;
-  left: 58rem;
+  left: 60rem;
   top: 32rem;
-  border: 2px solid #fff;
-  background-color: teal;
+  border: 3px solid #fff;
+  background-color: #706fbf;
   transition: 0.5s;
 }
 .right:hover {
@@ -84,10 +84,10 @@ circle {
 
 .left {
   position: absolute;
-  left: 2rem;
+  left: 0rem;
   top: 32rem;
-  border: 2px solid #fff;
-  background-color: teal;
+  border: 3px solid #fff;
+  background-color: #706fbf;
   transition: 0.5s;
 }
 .left:hover {
@@ -182,7 +182,7 @@ circle {
 .slider {
   position: absolute;
   width: 396%;
-  height: 85%;
+  height: 99%;
   display: inline-flex;
   overflow: hidden;
 }

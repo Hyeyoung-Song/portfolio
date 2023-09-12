@@ -32,7 +32,7 @@
 }
 .chartBars .bars li .bar {
   width: 100%;
-  background: #49E;
+  background: #a9d4f4;
   position: absolute;
   font-size: 1.5em;
   color: #fff;
@@ -230,17 +230,17 @@
   border-radius: 0.5em;
 }
 li.design .piesite > #slice > .pie {
-  border-color: #49E;
+  border-color: #a9d4f4;
 }
 li.usability .piesite > #slice > .pie {
-  border-color: #ff6cc2;
+  border-color: #fed081;
 }
-li.usability .piesite > #slice > .pie:nth-child(2) {
+li.usability .piesite > #slice > .pie:nth-child(4) {
 
-  border-color: #c3e62b;
+  border-color: #f96c6c;
 }
 li.creativity .piesite > #slice > .pie {
-  border-color: #326727;
+  border-color: #afacd7;
 }
 
 .piesite > #slice > .pie.fill {
