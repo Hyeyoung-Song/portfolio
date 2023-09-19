@@ -1416,8 +1416,27 @@ body #wrap .panel .thumb img.shift {
   text-align: center;
   padding-top: 0.9rem;
 }
+#slide4 a{      
+  top: 14%;
+  left: 43%;
+  text-decoration: none;
+  font-size: 1.7rem;
+  position: absolute;
+  background: #c3ddee;
+  color: black;
+  border: 4px solid #000;
+  width: 16%;
+  height: 5%;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 0.9rem;
+}
 .oner1{
   font-size: 1.0rem;
+}
+.oner4{
+  font-size: 1.0rem;
+  margin-top: 43vw;
 }
 .oner1_1{
   font-size: 1.1rem;
@@ -1428,6 +1447,10 @@ body #wrap .panel .thumb img.shift {
   float: left;
 }
 .oner3_1{
+  font-size: 1.1rem;
+  float: left;
+}
+.oner4_1{
   font-size: 1.1rem;
   float: left;
 }
