@@ -191,16 +191,16 @@ circle {
 
 .slide1, .slide2, .slide3, .slide4 {
   position: absolute;
-  background-position: center;
-  background-size: cover;
+  background-position: 1vw;
+  background-size: 57vw;
   color: rgba(0, 0, 0, 0.75);
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 1%;
   font-weight: 800;
   font-family: "Bogart-Semibold";
   text-align: center;
   width: 23%;
-  height: 58vw;
+  height: 80vw;
   transition: 1.4s;
   margin-left: 1.8rem;
 }

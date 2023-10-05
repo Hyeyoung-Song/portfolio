@@ -14,6 +14,7 @@ function imageSlider(parent,images){
     thumbnails:parent.querySelector(".thumbnails"),
     backBtn:parent.querySelector(".back-btn"),
     nextBtn:parent.querySelector(".next-btn")
+    p:parent.querySelector(".p")
   };
   
   slider.images.innerHTML = images.map(function(image){
@@ -25,7 +26,7 @@ function imageSlider(parent,images){
   
   slider.thumbnails.innerHTML = slider.images.innerHTML;
   
-  let thumbnailNodes = slider.thumbnails.querySelectorAll("img");
+  let thumbnailNodes = slider.thumbnails.querySelectorAll("img.p");
   thumbnailNodes[currentImage].classList.add("active");
   for(let i=0;i<thumbnailNodes.length;i++){
     thumbnailNodes[i].addEventListener("click",function(){
@@ -37,7 +38,7 @@ function imageSlider(parent,images){
     });
   }
   
-  slider.backBtn.addEventListener("click",function(){
+  slider.backBtn.p.addEventListener("click",function(){
     imageNodes[currentImage].classList.remove("active");
     currentImage--;
     if(currentImage < 0){

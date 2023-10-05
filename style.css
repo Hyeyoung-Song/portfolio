@@ -804,7 +804,7 @@ body #wrap .panel {
   --progress: 0;
   position: relative;
   width: 100%;
-  height: 110vw;
+  height: 90vw;
   box-sizing: border-box;
   transition: 1s cubic-bezier(1, 0.885, 0.32, 1);
 
@@ -1336,7 +1336,7 @@ body #wrap .panel .thumb img.shift {
 }
 .name3{
   position: absolute;
-  top: 61%;
+  top: 57%;
   left: 29%;
 }
 .usability{
@@ -1350,14 +1350,19 @@ body #wrap .panel .thumb img.shift {
 }
 .oner1{
   margin-top: 105%;
+  background-color: #fff;
 }
 .oner2{
   font-size: 1.0rem;
   margin-top: 92%;
+  background-color: #fff;
+
 }
 .oner3{
   font-size: 1.0rem;
   margin-top: 88%;
+  background-color: #fff;
+
 }
 
 #slide1 a{    
@@ -1375,7 +1380,8 @@ body #wrap .panel .thumb img.shift {
   text-align: center;
   padding-top: 0.9rem;
 }
-#slide2 a{       top: 14%;
+#slide2 a{       
+  top: 14%;
   left: 40%;
   text-decoration: none;
   font-size: 1.7rem;
