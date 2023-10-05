@@ -5,16 +5,15 @@
 }
 
 .parent {
-  width: 108%;
-  height: 23%;
-  top: 65%;
+  width: 106%;
+  height: 28%;
+  top: 64%;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto auto;
   overflow: hidden;
   position: absolute;
-  border-radius: 16px;
 }
 
 svg {
@@ -195,14 +194,13 @@ circle {
   background-position: center;
   background-size: cover;
   color: rgba(0, 0, 0, 0.75);
-  font-size: 62px;
+  font-size: 3rem;
   padding-top: 1%;
   font-weight: 800;
   font-family: "Bogart-Semibold";
   text-align: center;
-  width: 22%;
-  height: 100%;
-  z-index: 10;
+  width: 23%;
+  height: 75vw;
   transition: 1.4s;
   margin-left: 1.8rem;
 }
