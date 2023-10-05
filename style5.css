@@ -7,7 +7,7 @@
 .parent {
   width: 106%;
   height: 28%;
-  top: 64%;
+  top: 46%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -200,7 +200,7 @@ circle {
   font-family: "Bogart-Semibold";
   text-align: center;
   width: 23%;
-  height: 75vw;
+  height: 58vw;
   transition: 1.4s;
   margin-left: 1.8rem;
 }
